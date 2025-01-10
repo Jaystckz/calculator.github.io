@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f7f7f7; */
+    background-image: url("stacked-steps-haikei\ \(1\).svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+#result {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    /* background-color: #007BFF; */
+    background-color: #FA7268;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    /* background-color: #0056b3; */
+    background-color: #C53762;
+}
+
+/* h1 {
+    text-align: center;
+    color: ;
+} */
+
+marquee {
+    font-size: 30px;
+    width: 100%;
+    font-weight: bold;
+    /* color: #008F97; */
+    color: #EA5E66;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-position: center;
+        background-size: cover;
+        padding: 0 10px;
+    }
+}
