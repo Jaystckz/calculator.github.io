@@ -51,10 +51,12 @@ button:hover {
     background-color: #C53762;
 }
 
-/* h1 {
+h1 {
     text-align: center;
-    color: ;
-} */
+    font-size: 30px;
+    font-weight: bold;
+    color: #EA5E66;
+}
 
 marquee {
     font-size: 30px;
